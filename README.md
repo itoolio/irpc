@@ -22,7 +22,7 @@
 ## 🚀 Getting Started
 
 ### Requirements
-- **iOS**: iOS 15+ and a discord account.
+- **iOS**: iOS 15+ and a Discord account.
 
 ### Installation
 
