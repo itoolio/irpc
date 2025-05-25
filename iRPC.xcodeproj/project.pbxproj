@@ -10,8 +10,7 @@
 		3A4B2FD22DCE6FDF006DFDDA /* MusadoraKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3A4B2FD12DCE6FDF006DFDDA /* MusadoraKit */; };
 		3AC1BE732DD278C500CF3D2C /* NowPlayingKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3AC1BE722DD278C500CF3D2C /* NowPlayingKit */; };
 		3AD92A7E2DD39FD100CCE9E4 /* DiscordSocialKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3AD92A7D2DD39FD100CCE9E4 /* DiscordSocialKit */; };
-		F49296B22DC9520600FA24D8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F49296B12DC9520600FA24D8 /* README.md */; };
-		F4BE1C502DC94B49009B622C /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F4BE1C4F2DC94B49009B622C /* LaunchAtLogin */; };
+		F480CA2F2DDB9A39002493DD /* ScrobbleKit in Frameworks */ = {isa = PBXBuildFile; productRef = F480CA2E2DDB9A39002493DD /* ScrobbleKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		3A7B0DD22DCD1C90003A9644 /* iRPC MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRPC MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7B0DDC2DCD1C90003A9644 /* iRPC MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iRPC MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49296B12DC9520600FA24D8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F4BE1C312DC94AD5009B622C /* iRPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -71,11 +69,6 @@
 			path = "iRPC Mobile";
 			sourceTree = "<group>";
 		};
-		F4BE1C332DC94AD5009B622C /* iRPC */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iRPC;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +79,7 @@
 				3AD92A7E2DD39FD100CCE9E4 /* DiscordSocialKit in Frameworks */,
 				3A4B2FD22DCE6FDF006DFDDA /* MusadoraKit in Frameworks */,
 				3AC1BE732DD278C500CF3D2C /* NowPlayingKit in Frameworks */,
+				F480CA2F2DDB9A39002493DD /* ScrobbleKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,14 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4BE1C2E2DC94AD5009B622C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4BE1C502DC94B49009B622C /* LaunchAtLogin in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -118,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				F49296B12DC9520600FA24D8 /* README.md */,
-				F4BE1C332DC94AD5009B622C /* iRPC */,
 				3A7B0DC32DCD1C8E003A9644 /* iRPC Mobile */,
 				F4BE1C322DC94AD5009B622C /* Products */,
 			);
@@ -127,7 +112,6 @@
 		F4BE1C322DC94AD5009B622C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4BE1C312DC94AD5009B622C /* iRPC.app */,
 				3A7B0DC22DCD1C8E003A9644 /* iRPC Mobile.app */,
 				3A7B0DD22DCD1C90003A9644 /* iRPC MobileTests.xctest */,
 				3A7B0DDC2DCD1C90003A9644 /* iRPC MobileUITests.xctest */,
@@ -159,6 +143,7 @@
 				3A4B2FD12DCE6FDF006DFDDA /* MusadoraKit */,
 				3AC1BE722DD278C500CF3D2C /* NowPlayingKit */,
 				3AD92A7D2DD39FD100CCE9E4 /* DiscordSocialKit */,
+				F480CA2E2DDB9A39002493DD /* ScrobbleKit */,
 			);
 			productName = "iRPC Mobile";
 			productReference = 3A7B0DC22DCD1C8E003A9644 /* iRPC Mobile.app */;
@@ -204,29 +189,6 @@
 			productReference = 3A7B0DDC2DCD1C90003A9644 /* iRPC MobileUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		F4BE1C302DC94AD5009B622C /* iRPC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F4BE1C3D2DC94AD6009B622C /* Build configuration list for PBXNativeTarget "iRPC" */;
-			buildPhases = (
-				F4BE1C2D2DC94AD5009B622C /* Sources */,
-				F4BE1C2E2DC94AD5009B622C /* Frameworks */,
-				F4BE1C2F2DC94AD5009B622C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F4BE1C332DC94AD5009B622C /* iRPC */,
-			);
-			name = iRPC;
-			packageProductDependencies = (
-				F4BE1C4F2DC94B49009B622C /* LaunchAtLogin */,
-			);
-			productName = iRPC;
-			productReference = F4BE1C312DC94AD5009B622C /* iRPC.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,9 +210,6 @@
 						CreatedOnToolsVersion = 16.3;
 						TestTargetID = 3A7B0DC12DCD1C8E003A9644;
 					};
-					F4BE1C302DC94AD5009B622C = {
-						CreatedOnToolsVersion = 16.3;
-					};
 				};
 			};
 			buildConfigurationList = F4BE1C2C2DC94AD5009B622C /* Build configuration list for PBXProject "iRPC" */;
@@ -267,13 +226,13 @@
 				3A4B2FD02DCE6FDF006DFDDA /* XCRemoteSwiftPackageReference "MusadoraKit" */,
 				3AC1BE712DD278C500CF3D2C /* XCRemoteSwiftPackageReference "NowPlayingKit" */,
 				3AD92A7C2DD39FD100CCE9E4 /* XCRemoteSwiftPackageReference "DiscordSocialKit" */,
+				F480CA2D2DDB9A39002493DD /* XCRemoteSwiftPackageReference "ScrobbleKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F4BE1C322DC94AD5009B622C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4BE1C302DC94AD5009B622C /* iRPC */,
 				3A7B0DC12DCD1C8E003A9644 /* iRPC Mobile */,
 				3A7B0DD12DCD1C90003A9644 /* iRPC MobileTests */,
 				3A7B0DDB2DCD1C90003A9644 /* iRPC MobileUITests */,
@@ -303,14 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4BE1C2F2DC94AD5009B622C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F49296B22DC9520600FA24D8 /* README.md in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -329,13 +280,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3A7B0DD82DCD1C90003A9644 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4BE1C2D2DC94AD5009B622C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +310,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iRPC Mobile/iRPC_Mobile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iRPC Mobile/Info.plist";
@@ -404,7 +348,7 @@
 				CODE_SIGN_ENTITLEMENTS = "iRPC Mobile/iRPC_Mobile.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iRPC Mobile/Info.plist";
@@ -441,7 +385,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -461,7 +405,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -481,7 +425,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -500,7 +444,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L988J7YMK5;
+				DEVELOPMENT_TEAM = F2VS4PRAT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				MARKETING_VERSION = 1.0;
@@ -635,78 +579,6 @@
 			};
 			name = Release;
 		};
-		F4BE1C3E2DC94AD6009B622C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = F4BE1C332DC94AD5009B622C /* iRPC */;
-			baseConfigurationReferenceRelativePath = Config.xcconfig;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iRPC/iRPC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "iRPC - Imagine an RPC";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/discord_social_sdk/lib/debug",
-					"$(PROJECT_DIR)/discord_social_sdk/lib/release",
-				);
-				MARKETING_VERSION = "$(VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.stabenow.iRPC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		F4BE1C3F2DC94AD6009B622C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = F4BE1C332DC94AD5009B622C /* iRPC */;
-			baseConfigurationReferenceRelativePath = Config.xcconfig;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = iRPC/iRPC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = "$(BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "iRPC - Imagine an RPC";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/discord_social_sdk/lib/debug",
-					"$(PROJECT_DIR)/discord_social_sdk/lib/release",
-				);
-				MARKETING_VERSION = "$(VERSION)";
-				PRODUCT_BUNDLE_IDENTIFIER = dev.stabenow.iRPC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -746,15 +618,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4BE1C3D2DC94AD6009B622C /* Build configuration list for PBXNativeTarget "iRPC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4BE1C3E2DC94AD6009B622C /* Debug */,
-				F4BE1C3F2DC94AD6009B622C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -780,6 +643,14 @@
 			requirement = {
 				branch = main;
 				kind = branch;
+			};
+		};
+		F480CA2D2DDB9A39002493DD /* XCRemoteSwiftPackageReference "ScrobbleKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tfmart/ScrobbleKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
 			};
 		};
 		F4BE1C4E2DC94B49009B622C /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
@@ -808,10 +679,10 @@
 			package = 3AD92A7C2DD39FD100CCE9E4 /* XCRemoteSwiftPackageReference "DiscordSocialKit" */;
 			productName = DiscordSocialKit;
 		};
-		F4BE1C4F2DC94B49009B622C /* LaunchAtLogin */ = {
+		F480CA2E2DDB9A39002493DD /* ScrobbleKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F4BE1C4E2DC94B49009B622C /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
-			productName = LaunchAtLogin;
+			package = F480CA2D2DDB9A39002493DD /* XCRemoteSwiftPackageReference "ScrobbleKit" */;
+			productName = ScrobbleKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

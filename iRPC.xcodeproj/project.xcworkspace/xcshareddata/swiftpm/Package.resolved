@@ -1,5 +1,5 @@
 {
-  "originHash" : "6877820f68ed0e30abc083de5a690d9ff26d37ee9c58fb147196f7c12a3a6d6f",
+  "originHash" : "240375c5cdc899b9e07c1a184d26fbdec7d19ba9faad3188bba19774d0644d81",
   "pins" : [
     {
       "identity" : "discordsocialkit",
@@ -35,6 +35,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "6b18f98ae1e0e23ff4f6dc8b63d6e321aa5aede6"
+      }
+    },
+    {
+      "identity" : "scrobblekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tfmart/ScrobbleKit",
+      "state" : {
+        "revision" : "e12df14677589e29919352e47a0c500cc2e81fde",
+        "version" : "1.1.1"
       }
     }
   ],

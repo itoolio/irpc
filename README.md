@@ -1,48 +1,37 @@
 # 🎧 iRPC — Imagine an RPC
 
-**iRPC** is a lightweight application that bridges Apple Music with Discord Rich Presence, allowing you to share your current track, album, and artist live on Discord — beautifully and automatically. With support for macOS and iOS, iRPC brings seamless integration to both desktop and mobile platforms.
+**iRPC** is a lightweight application that bridges Apple Music with Discord Rich Presence, allowing you to share your current track, album, and artist live on Discord — beautifully and automatically.
 
 ---
 
 ## ✨ Features
 
 - 🎶 Displays your current Apple Music track on Discord in real-time.
-- ⚡ Minimal resource usage with macOS-native and iOS-native design.
+- ⚡ Minimal resource usage with iOS-native design.
 - 📱 iOS app built with the Discord Social SDK for advanced Rich Presence management.
-- 🧠 Automatically reconnects to Discord after interruptions.
-- 🪙 Optional toggles for launching at login, showing album art, and enabling music controls.
-- 🍏 Designed with Swift and SwiftUI for a smooth and native experience across platforms.
+- 🍏 Designed with Swift and SwiftUI for a smooth and native experience.
 
 ---
 
 ## 🖼 Preview
 
-<img src="https://stabenow.dev/iRPC/iRPC_Preview.png" width="400"/>
+<img src="https://stabenow.dev/iRPC/iRPC_Mobile_Preview.png" width="400"/>
 
 ---
 
 ## 🚀 Getting Started
 
 ### Requirements
-- **macOS**: macOS 12+ with Apple Music and Discord (Canary, PTB, or Stable) installed.
-- **iOS**: iOS 15+ with the Discord app installed and logged in.
+- **iOS**: iOS 15+ and a discord account.
 
 ### Installation
 
-#### macOS
+#### iOS
 1. Clone the repository:
    ```bash
    git clone https://github.com/itoolio/iRPC.git
    cd iRPC
    ```
-2. Open the project in Xcode:
-   ```bash
-   open iRPC.xcodeproj
-   ```
-3. Build and run the app on your macOS system.
-
-#### iOS
-1. Clone the repository as above.
 2. Open the `iRPC Mobile` project in Xcode:
    ```bash
    open iRPC_MobileApp.xcodeproj
