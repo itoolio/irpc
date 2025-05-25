@@ -12,7 +12,6 @@ import SwiftData
 import SwiftUI
 import MusicKit
 import MusadoraKit
-import ScrobbleKit
 
 struct ContentView: View {
     @State private var nowPlaying = NowPlayingData(id: "", title: "Loading...", artist: "")
